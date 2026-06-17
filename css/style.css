@@ -497,7 +497,7 @@ __________________ {
 /* TASK 6 — ::first-letter */
 /* Drop cap on the first paragraph inside .info-text */
 
-__________________ {
+.section-label + p::first-letter {
   font-family: var(--font-display);
   font-size: 3.5em;
   line-height: 0.75;
