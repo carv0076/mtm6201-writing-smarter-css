@@ -118,7 +118,7 @@ body {
 /* TASK 3 — Attribute Selector */
 /* Target the nav link with aria-current="page" */
 
-__________________ {
+.site-nav a[aria-current="page"] {
   color: var(--color-lime);
   font-weight: 600;
 }
