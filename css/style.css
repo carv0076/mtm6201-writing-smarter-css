@@ -467,29 +467,29 @@ __________________ {
 /* TASK 4 — Attribute Selectors */
 
 /* 4a: links whose href begins with https */
-__________________ {
+.info-links a[href^="https"]{
   color: var(--color-lime);
   font-weight: 500;
 }
 
-__________________:hover {
+.info-links a:hover {
   text-decoration: underline;
   text-underline-offset: 3px;
 }
 
 /* 4b: links whose href ends with .pdf */
-__________________ {
+.info-links a[href$=".pdf"] {
   color: rgba(255, 255, 255, 0.35);
   font-style: italic;
 }
 
 /* 4c: links whose href begins with mailto */
-__________________ {
+.info-links a[href*="mailto"] {
   color: var(--color-sky);
   font-weight: 500;
 }
 
-__________________::before {
+.info-links a[href*="mailto"]::before {
   content: "✉ ";
 }
 
