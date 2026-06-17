@@ -600,7 +600,7 @@ body {
 /* TASK 9 — :focus-visible */
 /* Keyboard focus ring on the submit button */
 
-__________________ {
+.submit-btn:focus-visible {
   outline: 3px solid var(--color-lime);
   outline-offset: 3px;
 }
