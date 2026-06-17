@@ -48,9 +48,9 @@ a    { color: inherit; text-decoration: none; }
 
 /* Apply font-family, color, and background-color using var() */
 body {
-  font-family: __________________;
-  color: __________________;
-  background-color: __________________;
+  font-family: var(--font-display);
+  color: var(--color-pink);
+  background-color: var(--color-bg);
   line-height: 1.6;
 }
 
