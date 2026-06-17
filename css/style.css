@@ -295,23 +295,23 @@ body {
 /* Target artist cards containing .headliner-badge */
 /* Do not use .artist-card--headliner in your selector */
 
-__________________ {
+.artist-card:has(.headliner-badge) {
   background-color: var(--color-pink);
 }
 
-__________________ .artist-name {
+.artist-card:has(.headliner-badge) .artist-name {
   color: #fff;
 }
 
-__________________ .artist-day {
+.artist-card:has(.headliner-badge) .artist-day {
   color: rgba(255, 255, 255, 0.5);
 }
 
-__________________ .artist-genre {
+.artist-card:has(.headliner-badge) .artist-genre {
   color: rgba(255, 255, 255, 0.6);
 }
 
-__________________ .headliner-badge {
+.artist-card:has(.headliner-badge) .headliner-badge {
   background-color: #fff;
   color: var(--color-pink);
 }
