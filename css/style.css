@@ -88,7 +88,7 @@ body {
 /* TASK 2 — Descendant Combinator */
 /* Target all links inside .site-nav */
 
-__________________ {
+.site-nav a {
   font-size: 0.875rem;
   font-weight: 600;
   letter-spacing: 0.03em;
@@ -97,7 +97,7 @@ __________________ {
   transition: color 0.15s ease;
 }
 
-__________________:hover {
+.site-nav a:hover {
   color: #fff;
 }
 
