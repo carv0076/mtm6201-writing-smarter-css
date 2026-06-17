@@ -367,7 +367,7 @@ __________________ .headliner-badge {
 /* TASK 7 — :nth-child */
 /* Give every even schedule item a slightly lighter background */
 
-__________________ {
+.schedule-list li:nth-child(even) {
   background-color: rgba(255, 255, 255, 0.03);
 }
 
