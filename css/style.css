@@ -367,7 +367,7 @@ body {
 /* TASK 7 — :nth-child */
 /* Give every even schedule item a slightly lighter background */
 
-.schedule-list li:nth-child(even) {
+.schedule-list .schedule-item:nth-child(even) {
   background-color: rgba(255, 255, 255, 0.03);
 }
 
