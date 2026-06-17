@@ -411,8 +411,8 @@ __________________ {
 /* TASK 5 — ::before */
 /* Add a large decorative quotation mark before .festival-quote */
 
-__________________ {
-  content: ;
+.festival-quote::before {
+  content: "\201C";
   position: absolute;
   left: 0.5rem;
   top: -1.5rem;
