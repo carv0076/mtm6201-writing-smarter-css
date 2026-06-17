@@ -523,7 +523,7 @@ body {
 
 /* Use calc() to fill the remaining width */
 .newsletter-form {
-  width: __________________;
+  width: calc(100% - var(--sidebar-w) - var(--gap));
 }
 
 
